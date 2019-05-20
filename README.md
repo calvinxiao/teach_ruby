@@ -2,6 +2,6 @@
 
 ## 计划 
 
-1. day one, Ruby 基础，`git checkout day1`
+1. day one, Ruby 基础，`git checkout day1`, https://github.com/calvinxiao/teach_ruby/tree/day1
 2. Rack 基础 
 
