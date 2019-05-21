@@ -52,4 +52,5 @@ end
 
 其实看懂这个就可以了 https://www.rubydoc.info/github/rack/rack/file/SPEC
 
-- 
+ # 练习
+ 学习 官方 rack 中间件 https://github.com/rack/rack/tree/master/lib/rack
