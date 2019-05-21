@@ -1,14 +1,15 @@
 app = -> env { [200, {}, ["Hello Rack"]] }
 
 class FirstMiddleware
-    def initialize(app)
+    def initialize(app, t)
         @app = app
+        @t = t
     end
 
     def before
         puts "before"
         @start = Time.now
-        sleep 1
+        sleep @t
     end
     
     def after
@@ -25,6 +26,6 @@ class FirstMiddleware
     end
 end
 
-use FirstMiddleware
+use FirstMiddleware, 3
 
 run app
